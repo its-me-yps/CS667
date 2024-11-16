@@ -19,21 +19,26 @@ This project focuses on the development of a **smart collar** for pet dogs, inte
 Next, download the audio files and preprocess them. This will cut them into smaller parts and prepare the data for analysis.
 ```bash
 python audioset_download.py
+```
 
 ### 2.Preprocess the Audio Data and Visualize Spectrograms
 After downloading the data, run the preprocessing script to visualize some spectrograms:
 ```bash
 python audio_preprocessing.py
+```
 
 ### 3. Train the Model
 Now, run the appropriate model training script. For example, to train using MobileNetV2, run:
 ```bash
 python mobileNetV2.py
+```
 
 ### 4. Test the Trained Model
 ```bash
 python model_tester.py
+```
 
 ### 5. Run the Simulation
 ```bash
 python simulation.py
+```
